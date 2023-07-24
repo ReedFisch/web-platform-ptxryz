@@ -1,0 +1,57 @@
+body {
+  /* Background styles */
+  background-position: left;
+  background-attachment: fixed;
+  background-size: cover;
+  /* For browser compatibility */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  
+}
+
+#container {
+  /* Container styles */
+  background: black;
+  width: 400px;
+  color: white;
+  text-indent: 20px;
+  padding-left: 20px;
+}
+
+h1 {
+  /* Heading styles */
+  font-size: 40px;
+}
+
+h2 {
+  /* Subheading styles */
+  background: #4299DE;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer {
+  /* Footer styles */
+  color: #D6D7E3;
+}
+
+a {
+  /* Link styles */
+  color: white;
+  text-decoration: none;
+}
+
+/* styles.css */
+
+.container-2 {
+  /* Container 2 styles */
+  display: flex; /* Change "horizontal" to "flex" to properly center content */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  max-width: 100%; /* Ensure the image fits within its container */
+  margin-right: 20px; /* Add some spacing between the image and content */
+}
+
